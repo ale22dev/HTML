@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> formulario </title>
+</head>
+
+
+<body>
+    <fieldset>
+        <legend> cadastro </legend>
+
+        <form action="" method="POST" enctype="multipart/form-data">
+            <label>
+                <b> Nome </b>
+                <br>
+                <input name="name" placeholder="digite seu nome" autofocus>
+            </label>
+            
+            <br>
+            <br>
+            
+            <label>
+                <b> Email </b>
+                <br>
+                <input type="mail" name="mail" placeholder="digite seu email" required>
+            </label>
+            
+            <br>
+            <br>
+            
+            <label>
+                <b> Idade </b>
+                <br>
+                <input type="number" name="age" min="12" placeholder="digite sua idade">
+            </label>
+            
+            <br>
+            <br>
+            
+            <label>
+                <b> Data de Nacimento </b>
+                <br>
+                <input type="date" name="birthday" min="01-01-2009">
+            </label>
+            
+            <br>
+            <br>
+            
+            <label>
+                <b> Onde Você Possui Conta </b>
+                <br>
+                <input type="checkbox" name="facebook">facebook
+                <input type="checkbox" name="instagram">instagram
+                <input type="checkbox" name="youtube">youtube
+                <input type="checkbox" name="linkedin">linkedin
+            </label>
+            
+            <br>
+            <br>
+            
+            <label>
+                <b> Sexo </b>
+                <br>
+                <input type="radio" name="opção" value="op1" name="sexo"> Masculino
+                <input type="radio" name="opção" value="op2" name="sexo"> Feminino
+            </label>
+            
+            <br>
+            <br>
+            
+            <label>
+                <b> Cor de olhos </b>
+                <input type="color" name="eyes">
+            </label>
+            
+            <br>
+            <br>
+            
+            <label>
+                <b> Biografia </b>
+                <br>
+                <textarea></textarea>
+            </label>
+            
+            <br>
+            <br>
+            
+            <label>
+                <b> Foto de perfil </b>
+                <br>
+                <input type="file" accept="imagen/*" name="picture">
+            </label>
+            
+            <br>
+            <br>
+            
+            <label>
+                <b> Telefone </b>
+                <br>
+                <input type="number" name="telephone" placeholder="digite seu telefone">
+            </label>
+            
+            <br>
+            <br>
+            
+            <label>
+                <b> Link do perfil de facebook </b>
+                <br>
+                <input type="url" name="url" pattern=".com" required>
+            </label>
+            
+            <br>
+            <br>
+            
+            <label>
+                <b> Senha </b>
+                <br>
+                <input type="password" min="6" max="8" name="password" placeholder="digite sua senha">
+                <br>
+                <br>
+            </label>
+            
+            <br>
+            
+            <button type="reset">limpar</button>
+            <button type="submit"> enviar dados </button>
+
+
+        </form>
+    </fieldset>
+</body>
+
+</html>
